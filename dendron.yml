@@ -95,13 +95,14 @@ publishing:
     writeStubs: false
     siteRootDir: docs
     seo:
-        title: SAP-wiki
+        title: SAP.wiki
         description: База знаний SAP
     github:
         enableEditLink: true
         editLinkText: Редактировать на GitHub
         editBranch: main
         editViewMode: tree
+        editRepository: https://github.com/ilfan18/sap-wiki
     enableSiteLastModified: true
     enableFrontmatterTags: true
     enableHashesForFMTags: false
