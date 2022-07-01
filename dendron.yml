@@ -92,7 +92,9 @@ publishing:
     enableKatex: true
     copyAssets: true
     siteHierarchies:
-        - root
+        - main
+        - abap
+        - user-instructions
     writeStubs: false
     siteRootDir: docs
     seo:
