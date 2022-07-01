@@ -1,0 +1,17 @@
+{
+  "roots": [
+    {
+      "key": "snopgczkib0kk532p2h659y",
+      "title": "Root",
+      "icon": null,
+      "hasTitleNumberOutlined": false,
+      "vaultName": "sap-wiki",
+      "navExclude": false,
+      "children": []
+    }
+  ],
+  "child2parent": {
+    "403": null,
+    "snopgczkib0kk532p2h659y": null
+  }
+}

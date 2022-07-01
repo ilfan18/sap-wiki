@@ -1,0 +1,158 @@
+{
+  "notes": {
+    "403": {
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "sap-wiki"
+      },
+      "fname": "403",
+      "id": "403",
+      "title": "This page has not yet sprouted",
+      "schemaStub": false,
+      "type": "note",
+      "updated": 1656662569053,
+      "created": 1656662569053,
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": null,
+      "data": {}
+    },
+    "snopgczkib0kk532p2h659y": {
+      "id": "snopgczkib0kk532p2h659y",
+      "title": "Root",
+      "desc": "",
+      "updated": 1656662031946,
+      "created": 1656662031946,
+      "custom": {
+        "nav_order": 0,
+        "permalink": "/"
+      },
+      "fname": "root",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "sap-wiki"
+      },
+      "contentHash": "d3def3f6231664dd5bc962b47117137d",
+      "links": [],
+      "anchors": {
+        "welcome-to-dendron": {
+          "type": "header",
+          "text": "Welcome to Dendron",
+          "value": "welcome-to-dendron",
+          "line": 7,
+          "column": 0,
+          "depth": 1
+        },
+        "lookup": {
+          "type": "header",
+          "text": "Lookup",
+          "value": "lookup",
+          "line": 11,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": null,
+      "data": {}
+    }
+  },
+  "domains": [
+    {
+      "id": "snopgczkib0kk532p2h659y",
+      "title": "Root",
+      "desc": "",
+      "updated": 1656662031946,
+      "created": 1656662031946,
+      "custom": {
+        "nav_order": 0,
+        "permalink": "/"
+      },
+      "fname": "root",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "sap-wiki"
+      },
+      "contentHash": "d3def3f6231664dd5bc962b47117137d",
+      "links": [],
+      "anchors": {
+        "welcome-to-dendron": {
+          "type": "header",
+          "text": "Welcome to Dendron",
+          "value": "welcome-to-dendron",
+          "line": 7,
+          "column": 0,
+          "depth": 1
+        },
+        "lookup": {
+          "type": "header",
+          "text": "Lookup",
+          "value": "lookup",
+          "line": 11,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": null,
+      "data": {},
+      "body": "# Welcome to Dendron\n\nThis is the root of your dendron vault. If you decide to publish your entire vault, this will be your landing page. You are free to customize any part of this page except the frontmatter on top.\n\n## Lookup\n\nThis section contains useful links to related resources.\n\n- [Getting Started Guide](https://link.dendron.so/6b25)\n- [Discord](https://link.dendron.so/6b23)\n- [Home Page](https://wiki.dendron.so/)\n- [Github](https://link.dendron.so/6b24)\n- [Developer Docs](https://docs.dendron.so/)\n"
+    }
+  ],
+  "noteIndex": {
+    "id": "snopgczkib0kk532p2h659y",
+    "title": "Root",
+    "desc": "",
+    "updated": 1656662031946,
+    "created": 1656662031946,
+    "custom": {
+      "nav_order": 0,
+      "permalink": "/"
+    },
+    "fname": "root",
+    "type": "note",
+    "vault": {
+      "fsPath": ".",
+      "selfContained": true,
+      "name": "sap-wiki"
+    },
+    "contentHash": "d3def3f6231664dd5bc962b47117137d",
+    "links": [],
+    "anchors": {
+      "welcome-to-dendron": {
+        "type": "header",
+        "text": "Welcome to Dendron",
+        "value": "welcome-to-dendron",
+        "line": 7,
+        "column": 0,
+        "depth": 1
+      },
+      "lookup": {
+        "type": "header",
+        "text": "Lookup",
+        "value": "lookup",
+        "line": 11,
+        "column": 0,
+        "depth": 2
+      }
+    },
+    "children": [],
+    "parent": null,
+    "data": {},
+    "body": "# Welcome to Dendron\n\nThis is the root of your dendron vault. If you decide to publish your entire vault, this will be your landing page. You are free to customize any part of this page except the frontmatter on top.\n\n## Lookup\n\nThis section contains useful links to related resources.\n\n- [Getting Started Guide](https://link.dendron.so/6b25)\n- [Discord](https://link.dendron.so/6b23)\n- [Home Page](https://wiki.dendron.so/)\n- [Github](https://link.dendron.so/6b24)\n- [Developer Docs](https://docs.dendron.so/)\n"
+  },
+  "vaults": [
+    {
+      "fsPath": ".",
+      "selfContained": true,
+      "name": "sap-wiki"
+    }
+  ]
+}
