@@ -93,8 +93,10 @@ publishing:
     copyAssets: true
     siteHierarchies:
         - main
+        - getting-started
         - user-instructions
         - abap
+        - styleguide
     writeStubs: false
     siteRootDir: docs
     seo:

@@ -1,0 +1,12 @@
+version: 1
+imports: []
+schemas:
+  - id: dendron
+    parent: root
+    children:
+      - sap-logon-instalation
+      - user-interface
+  - id: sap-logon-instalation
+  - id: user-interface
+
+    
