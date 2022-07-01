@@ -84,6 +84,7 @@ preview:
 publishing:
     assetsPrefix: '/sap-wiki'
     siteUrl: 'https://ilfan18.github.io'
+    logoPath: notes/assets/images/logo.png
     enableFMTitle: true
     enableNoteTitleForLink: true
     enableMermaid: true
