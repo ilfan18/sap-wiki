@@ -1,0 +1,29 @@
+<h1 id="define-field-mapping-and-conversion-rules"><a aria-hidden="true" class="anchor-heading" href="#define-field-mapping-and-conversion-rules"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Define Field Mapping and Conversion Rules</h1>
+<h1 id="определение-связей-и-правил-преобразования"><a aria-hidden="true" class="anchor-heading" href="#определение-связей-и-правил-преобразования"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Определение связей и правил преобразования</h1>
+<p>На данном шаге определяется связь между полями пользовательских структур и полями структур назначения (Полями пакетного ввода, BAPI и др.), а так же правила преобразования. Все поля структур назначения, которые были заполнены на предыдущем шаге, будут отображены на этом экране.</p>
+<p><img src="/sap-wiki/assets/images/2022-07-02-12-05-46.png" alt="Определение связей и правил преобразования"></p>
+<h3 id="поля-содержат-следующую-информацию"><a aria-hidden="true" class="anchor-heading" href="#поля-содержат-следующую-информацию"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Поля содержат следующую информацию:</h3>
+<ul>
+<li>Описание поля</li>
+<li>Присвоенное поле из структуры назначения</li>
+<li>Правило, по которому присваивается значение полю (Константа, пустое, присвоение и т.п.)</li>
+<li>Код программы преобразования</li>
+</ul>
+<p>Некоторые поля являются техническими и заполняются системой автоматически, правило для них присваивается как Default Settings (зеленые записи).  Изменение значений данных полей может повлиять на ход выполнения импорта.</p>
+<p>Система позволяет автоматически сделать присвоение полей, в случае если их имена совпадают: <em>Extras -> Auto-field Mapping</em>.</p>
+<h2 id="правила-присвоения-полей"><a aria-hidden="true" class="anchor-heading" href="#правила-присвоения-полей"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Правила присвоения полей</h2>
+<p><img src="/sap-wiki/assets/images/2022-07-02-12-13-26.png" alt="Правила присвоения полей"></p>
+<ul>
+<li><strong>Initial</strong>: Пустое значение для поля. Когда выбрано данное правило значение поля может принимать  следующие значения: для стандартного пакетного ввода – пустое символьное значение '', для записи пакетного ввода '/', для BAPI или IDoc для символьных полей '', для полей числовых '0..00'.</li>
+<li><strong>Move</strong>: Работает так же, как и ABAP команда MOVE.</li>
+<li><strong>Constant</strong>: Значение по умолчанию.</li>
+<li><strong>Fixed value (reusable)</strong>:  Присваивается значение переменной определенной на шаге Maintain Fixed Values, Translations, User-Defined Routine.</li>
+<li><strong>Translation (reusable)</strong>: Определяется порядок преобразования поля, само преобразование определяется в шаге Maintain Fixed Values, Translations, User-Defined Routine.</li>
+<li><strong>User-written routine (reusable)</strong>: Определяется имя кодировки для поля, сама кодировка так же определяется на шаге Maintain Fixed Values, Translations, User-Defined Routine.</li>
+<li><strong>Prefix</strong>: Задается значение, которое должно быть перед содержимым поля.</li>
+<li><strong>Suffix</strong>: Задается значение, которое должно быть после содержимого поля.</li>
+<li><strong>Concatenation</strong>: Вы можете задать объединение двух или нескольких исходных полей в одно поле назначения.</li>
+<li><strong>Transfer left-justified</strong>: записать содержимое с выравниванием по левому краю.</li>
+<li><strong>ABAP coding</strong>: задает кодировку ABAP для преобразования поля.  В кодировке можно использовать все поля исходной структуры, глобальные переменные, глобальные функции.</li>
+<li><strong>XField</strong>: специальная функция для IDocs и BAPI объектов. Функция заполняет так называемые X-структуры (структуры изменений для BAPI функций). В случае если поле было изменено, соответствующее поле X структуры должно иметь значение «Х».</li>
+</ul>

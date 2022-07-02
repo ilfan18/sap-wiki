@@ -1,0 +1,98 @@
+<h1 id="lsmw"><a aria-hidden="true" class="anchor-heading" href="#lsmw"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>LSMW</h1>
+<p>LSMW – это инструмент для переноса из исторической системы в SAP. Часто LSMW используется как инструмент массового ввода. Данные могут быть введены с помощью Batch Input, Direct Input, BAPIs или IDocs.</p>
+<h2 id="принцип-работы-lsmw"><a aria-hidden="true" class="anchor-heading" href="#принцип-работы-lsmw"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Принцип работы LSMW</h2>
+<p><img src="/sap-wiki/assets/images/lsmw-scheme.png" alt="Принцип работы LSMW"></p>
+<h2 id="основные-функции-lsmw"><a aria-hidden="true" class="anchor-heading" href="#основные-функции-lsmw"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Основные функции LSMW</h2>
+<ul>
+<li>Импорт данных (данные из файлов, электронных таблиц).</li>
+<li>Преобразование данных в необходимый формат.</li>
+<li>Импорт данных в SAP систему.</li>
+</ul>
+<h2 id="преимущества"><a aria-hidden="true" class="anchor-heading" href="#преимущества"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Преимущества</h2>
+<ul>
+<li>LSMW – часть SAP системы не зависимая от платформы</li>
+<li>Большое количество возможностей по преобразованию данных</li>
+<li>Поддержка основных технологий ввода: Bath Input, Direct Input, BAPIs, IDocs.</li>
+<li>Удобный путеводитель по миграции данных</li>
+<li>Является бесплатным инструментом для партнеров SAP</li>
+</ul>
+<h2 id="перед-использованием-lsmw"><a aria-hidden="true" class="anchor-heading" href="#перед-использованием-lsmw"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Перед использованием LSMW</h2>
+<ul>
+<li>Убедитесь, что SAP система окончательно настроена и готова к вводу</li>
+<li>Решите, имеет ли смысл использовать инструмент, его использование оправдано на больших объемах данных. Скорость импорта для режима Direct Input и Bath Input примерно 10000 записей в час, величина может меняться в зависимости от аппаратной части сервера.</li>
+<li>Определитесь с транзакциями в SAP системе, через которые будете выполнять импорт данных.  Созданы ли стандартные объекты Direct Input, Batch Input, есть ли необходимые BAPI.</li>
+<li>Протестируйте выбранные транзакции вручную, определите, какие поля являются обязательными к заполнению.</li>
+<li>Учтите, что LSMW не извлекает данные из внешних систем, их необходимо предварительно подготовить. Формат файла должен соответствовать возможностям чтения файлов LSMW. Например: кодировка должна быть либо ASCII или IBM.</li>
+<li>Определитесь с методом импорта данных (BAPI, Direct Input и т.п.).</li>
+</ul>
+<h2 id="предварительная-настройка"><a aria-hidden="true" class="anchor-heading" href="#предварительная-настройка"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Предварительная настройка</h2>
+<p>Убедитесь что у пользователя, под которым будет происходить импорт, достаточные полномочия:</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Уровень авторизации</th><th>Профиль</th><th>Функции</th></tr></thead><tbody><tr><td>Просмотр</td><td>B_LSMW_SHOW</td><td>Пользователю разрешается просматривать все проекты LSMW</td></tr><tr><td>Выполнение</td><td>B_LSMW_EXEC</td><td>Пользователь может выполнять и редактировать шаги проектов</td></tr><tr><td>Изменение</td><td>B_LSMW_CHG</td><td>Пользователь обладает полномочиями на просмотр объекта LSMW, импорт и чтение данных.</td></tr><tr><td>Администрирование</td><td>B_LSMW_ALL</td><td>Все полномочия на LSMW</td></tr></tbody></table>
+<h1 id="запуск"><a aria-hidden="true" class="anchor-heading" href="#запуск"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Запуск</h1>
+<p>Для начала работы запустите тразакцию <code>LSMW</code> .</p>
+<p><img src="/sap-wiki/assets/images/2022-07-01-22-22-20.png" alt="Селекционный экран LSMW"></p>
+<p>Тут:</p>
+<ul>
+<li>Project – имя проекта, например «Упр. закупками и запасами»</li>
+<li>Subproject – имя подпроекта, например «Движение запасов»</li>
+<li>Object – имя объекта LSMW который включает все операции по переносу данных, например «Перемещение остатков».</li>
+</ul>
+<p>С помощью кнопок на начальном экране можно:</p>
+<ul>
+<li>Запустить проект на выполнение.</li>
+<li>Создать новый проект, объект.</li>
+<li>Изменить проект.</li>
+<li>Просмотреть все объекты LSMW в системе.</li>
+<li>Просмотреть все свои объекты.</li>
+<li>Просмотреть все объекты к проекту.</li>
+<li>Изменить документацию к проекту.</li>
+</ul>
+<h2 id="начало-работы"><a aria-hidden="true" class="anchor-heading" href="#начало-работы"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Начало работы</h2>
+<p>После выбора (создания) проекта, подпроекта и объекта LSMW нажмите ENTER, вы попадете на экран определения шагов для объекта.</p>
+<p><img src="/sap-wiki/assets/images/2022-07-02-11-10-09.png" alt="LSMW steps"></p>
+<p>Тут:</p>
+<ul>
+<li>С помощью кнопки Personal Menu вы определяете, какие шаги будут использоваться в объекте. </li>
+<li>Кнопка Object Overview позволяет посмотреть всю информацию по выбранному объекту.  </li>
+<li>Action Log – просмотр истории изменений, запусков. </li>
+<li>Execute – выполнить выбранный шаг. </li>
+<li>Для изменения шагов выберите Double Click = Change.</li>
+</ul>
+<h2 id="администрирование"><a aria-hidden="true" class="anchor-heading" href="#администрирование"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Администрирование</h2>
+<p>Для копирования, изменения, удаления объектов, проектов и подпроектов необходимо перейти в администрирование: <em>Go to -> Administration.</em></p>
+<hr>
+<strong>Children</strong>
+<ol>
+<li><a href="/sap-wiki/notes/w5gw024xuqzkxjbgrtibo1y">Движение запасов</a></li>
+<li><a href="/sap-wiki/notes/qlvd1la59190o68yoqgjshi">Шаги LSMW</a></li>
+</ol>

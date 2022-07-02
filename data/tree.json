@@ -1,0 +1,241 @@
+{
+  "roots": [
+    {
+      "key": "6wlxq7qt6pbzz1xqmvf2kkc",
+      "title": "SAP.wiki",
+      "icon": null,
+      "hasTitleNumberOutlined": false,
+      "vaultName": "sap-wiki",
+      "navExclude": false,
+      "children": []
+    },
+    {
+      "key": "b6owbzn42d8tugr12lnqfm7",
+      "title": "Начало",
+      "icon": null,
+      "hasTitleNumberOutlined": false,
+      "vaultName": "sap-wiki",
+      "navExclude": false,
+      "children": [
+        {
+          "key": "cj3487v9yhwuosy5px263y2",
+          "title": "Установка SAP Logon",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "sap-wiki",
+          "navExclude": false,
+          "children": []
+        },
+        {
+          "key": "l0c8dckpzro8rs7o8k2wk2v",
+          "title": "Интерфейс пользователя",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "sap-wiki",
+          "navExclude": false,
+          "children": []
+        }
+      ]
+    },
+    {
+      "key": "n0whw4jkjf2t8tiui27k6kt",
+      "title": "Инструкции пользователя",
+      "icon": null,
+      "hasTitleNumberOutlined": false,
+      "vaultName": "sap-wiki",
+      "navExclude": false,
+      "children": [
+        {
+          "key": "8h3khqo0l39zctp8uagst2l",
+          "title": "LSMW",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "sap-wiki",
+          "navExclude": false,
+          "children": [
+            {
+              "key": "w5gw024xuqzkxjbgrtibo1y",
+              "title": "Движение запасов",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "sap-wiki",
+              "navExclude": false,
+              "children": []
+            },
+            {
+              "key": "qlvd1la59190o68yoqgjshi",
+              "title": "Шаги LSMW",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "sap-wiki",
+              "navExclude": false,
+              "children": [
+                {
+                  "key": "15gnxqsjbryx0ww8desd96h",
+                  "title": "Define Object Attributes",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "sap-wiki",
+                  "navExclude": false,
+                  "children": []
+                },
+                {
+                  "key": "njglw21vl7uuujjie5fzd8r",
+                  "title": "Define Source Structures",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "sap-wiki",
+                  "navExclude": false,
+                  "children": []
+                },
+                {
+                  "key": "vyxxof2e4vspzgvssdf4hkk",
+                  "title": "Define Source Fields",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "sap-wiki",
+                  "navExclude": false,
+                  "children": []
+                },
+                {
+                  "key": "fehsxostxbw6n0tvd1dp0dz",
+                  "title": "Define Structure Relations",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "sap-wiki",
+                  "navExclude": false,
+                  "children": []
+                },
+                {
+                  "key": "ybqv8ko9aq918wsebznvil7",
+                  "title": "Define Field Mapping and Conversion Rules",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "sap-wiki",
+                  "navExclude": false,
+                  "children": []
+                },
+                {
+                  "key": "92e2tlnvfam4zfcqacnswui",
+                  "title": "Define Fixed Values, Translations, User-Defined",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "sap-wiki",
+                  "navExclude": false,
+                  "children": []
+                },
+                {
+                  "key": "2jh4xh8bftf8n8eepsdiewz",
+                  "title": "Specify Files",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "sap-wiki",
+                  "navExclude": false,
+                  "children": []
+                },
+                {
+                  "key": "0g9s2ot0x7s9u8y2yd5pd0a",
+                  "title": "Assign Files",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "sap-wiki",
+                  "navExclude": false,
+                  "children": []
+                },
+                {
+                  "key": "m9qqugql53lpiddrhqb5d5s",
+                  "title": "Read Data",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "sap-wiki",
+                  "navExclude": false,
+                  "children": []
+                },
+                {
+                  "key": "w9c2pyff0sxlt0mr5njivdg",
+                  "title": "Display Read Data",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "sap-wiki",
+                  "navExclude": false,
+                  "children": []
+                },
+                {
+                  "key": "w88a07e80djtq66l8ucxy2r",
+                  "title": "Convert Data",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "sap-wiki",
+                  "navExclude": false,
+                  "children": []
+                },
+                {
+                  "key": "8n15090hto6kfs7uq09odke",
+                  "title": "Data Import",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "sap-wiki",
+                  "navExclude": false,
+                  "children": []
+                },
+                {
+                  "key": "26mirbw3gtnzb6akpbb1ing",
+                  "title": "Display Converted Data",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "sap-wiki",
+                  "navExclude": false,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "tqhnrl30r5zjycra74w7sod",
+      "title": "ABAP",
+      "icon": null,
+      "hasTitleNumberOutlined": false,
+      "vaultName": "sap-wiki",
+      "navExclude": false,
+      "children": []
+    },
+    {
+      "key": "9nilwkqvk13f0ceqd0z16t9",
+      "title": "Правила оформления",
+      "icon": null,
+      "hasTitleNumberOutlined": false,
+      "vaultName": "sap-wiki",
+      "navExclude": false,
+      "children": []
+    }
+  ],
+  "child2parent": {
+    "403": null,
+    "9nilwkqvk13f0ceqd0z16t9": null,
+    "tqhnrl30r5zjycra74w7sod": null,
+    "n0whw4jkjf2t8tiui27k6kt": null,
+    "8h3khqo0l39zctp8uagst2l": "n0whw4jkjf2t8tiui27k6kt",
+    "w5gw024xuqzkxjbgrtibo1y": "8h3khqo0l39zctp8uagst2l",
+    "qlvd1la59190o68yoqgjshi": "8h3khqo0l39zctp8uagst2l",
+    "2jh4xh8bftf8n8eepsdiewz": "qlvd1la59190o68yoqgjshi",
+    "m9qqugql53lpiddrhqb5d5s": "qlvd1la59190o68yoqgjshi",
+    "w9c2pyff0sxlt0mr5njivdg": "qlvd1la59190o68yoqgjshi",
+    "26mirbw3gtnzb6akpbb1ing": "qlvd1la59190o68yoqgjshi",
+    "fehsxostxbw6n0tvd1dp0dz": "qlvd1la59190o68yoqgjshi",
+    "njglw21vl7uuujjie5fzd8r": "qlvd1la59190o68yoqgjshi",
+    "vyxxof2e4vspzgvssdf4hkk": "qlvd1la59190o68yoqgjshi",
+    "15gnxqsjbryx0ww8desd96h": "qlvd1la59190o68yoqgjshi",
+    "92e2tlnvfam4zfcqacnswui": "qlvd1la59190o68yoqgjshi",
+    "ybqv8ko9aq918wsebznvil7": "qlvd1la59190o68yoqgjshi",
+    "8n15090hto6kfs7uq09odke": "qlvd1la59190o68yoqgjshi",
+    "w88a07e80djtq66l8ucxy2r": "qlvd1la59190o68yoqgjshi",
+    "0g9s2ot0x7s9u8y2yd5pd0a": "qlvd1la59190o68yoqgjshi",
+    "b6owbzn42d8tugr12lnqfm7": null,
+    "l0c8dckpzro8rs7o8k2wk2v": "b6owbzn42d8tugr12lnqfm7",
+    "cj3487v9yhwuosy5px263y2": "b6owbzn42d8tugr12lnqfm7",
+    "6wlxq7qt6pbzz1xqmvf2kkc": null
+  }
+}
